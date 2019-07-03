@@ -19,6 +19,8 @@ public class HomeController {
 	@RequestMapping(value="/user/savedata",method=RequestMethod.POST,produces="application/json")
 	public User savedata(@RequestBody User u)
 	{
+		
+		System.out.println("hlw");
 		User u1=si.savedata(u);
 		return u1;
 	}
