@@ -21,6 +21,7 @@ public class HomeController {
 	{
 		
 		System.out.println("hlw");
+		System.out.println("ppppppp");
 		User u1=si.savedata(u);
 		return u1;
 	}
